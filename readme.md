@@ -1,5 +1,5 @@
 
-## Sistema de Prueba DEMO para subir y consultar imagenes en Amazon S3 (AWS S3)
+## Sistema de Prueba DEMO para subir y consultar imagenes en Amazon S3 (AWS S3) y LARAVEL 5.5
 En esta prueba se sube una imagen a Amazon S3
 
 
