@@ -35,7 +35,7 @@ class S3ImageController extends Controller
         $imageName = Storage::disk('s3')->url($imageName);
 
     	return back()
-    		->with('success','Image Uploaded successfully.')
+    		->with('success','Imagen Subida a AWS S3 exitosa')
     		->with('path',$imageName);
     }
 }
