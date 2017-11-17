@@ -18,7 +18,7 @@ composer install
 
 ### Se usa la ruta 
 
-localhost/s3-image-upload
+localhost/aws-s3
 
 ### Dudas
 

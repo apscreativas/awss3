@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('s3-image-upload','S3ImageController@imageUpload');
-Route::post('s3-image-upload','S3ImageController@imageUploadPost');
+Route::get('aws-s3','S3ImageController@imageUpload');
+Route::post('aws-s3','S3ImageController@imageUploadPost');
 
 Route::get('upload_s3', function() {
     $file = public_path() . '/uploads/david.jpg';
