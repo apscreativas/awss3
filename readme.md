@@ -4,11 +4,24 @@ En esta prueba se sube una imagen a Amazon S3 a traves de un formulario de conta
 
 ### Requiere de paquetes en composer 
 
+- Dado a que requiere de **league/flysystem-aws-s3-v3**
+
 ```
 composer install
 ```
 
-- Dado a que requiere de **league/flysystem-aws-s3-v3** 
+### Instalar la llave única de la aplicación  
+
+```
+php artisan key:generate
+```
+
+### Copiar el .ENV.EXAMPLE a .ENV dentro de la carpeta del proyecto  
+
+```
+sp .env.example .env
+```
+ 
 ### Requerimiento : Agregar en el .ENV las credenciales de ACCESO de Amazon S3
 
 	-AMAZON_KEY=key
