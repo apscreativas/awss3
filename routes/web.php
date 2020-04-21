@@ -18,5 +18,3 @@ Route::get('/', function () {
 Route::get('aws-s3','S3ImageController@imageUpload');
 Route::post('aws-s3','S3ImageController@imageUploadPost');
 
-
-});
