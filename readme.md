@@ -19,7 +19,7 @@ php artisan key:generate
 ### Copiar el .ENV.EXAMPLE a .ENV dentro de la carpeta del proyecto  
 
 ```
-sp .env.example .env
+cp .env.example .env
 ```
  
 ### Requerimiento : Agregar en el .ENV las credenciales de ACCESO de Amazon S3
