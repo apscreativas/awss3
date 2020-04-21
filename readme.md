@@ -10,18 +10,19 @@ En esta prueba se sube una imagen a Amazon S3 a traves de un formulario de conta
 composer update
 ```
 
+### Copiar el .ENV.EXAMPLE a .ENV dentro de la carpeta del proyecto  
+
+```
+cp .env.example .env
+```
+
 ### Instalar la llave única de la aplicación  
 
 ```
 php artisan key:generate
 ```
 
-### Copiar el .ENV.EXAMPLE a .ENV dentro de la carpeta del proyecto  
 
-```
-cp .env.example .env
-```
- 
 ### Requerimiento : Agregar en el .ENV las credenciales de ACCESO de Amazon S3
 
 	-AMAZON_KEY=key
