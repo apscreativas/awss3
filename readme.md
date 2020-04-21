@@ -7,7 +7,7 @@ En esta prueba se sube una imagen a Amazon S3 a traves de un formulario de conta
 - Dado a que requiere de **league/flysystem-aws-s3-v3**
 
 ```
-composer install
+composer update
 ```
 
 ### Instalar la llave única de la aplicación  
